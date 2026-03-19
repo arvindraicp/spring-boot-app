@@ -33,4 +33,10 @@ public class CustomerController {
     private void show() {
 
     }
+    private void show1() {
+
+    }
+    private void show2() {
+
+    }
 }
