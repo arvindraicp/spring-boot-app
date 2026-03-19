@@ -30,4 +30,7 @@ public class CustomerController {
         System.out.println("query::" + q);
         return customerService.searchCustomer(q);
     }
+    private void show() {
+
+    }
 }
