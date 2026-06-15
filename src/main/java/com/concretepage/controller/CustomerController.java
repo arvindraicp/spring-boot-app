@@ -31,6 +31,6 @@ public class CustomerController {
         return customerService.searchCustomer(q);
     }
     private void show() {
-
+       System.out.println("Hello");
     }
 }
