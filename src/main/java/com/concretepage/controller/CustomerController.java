@@ -28,6 +28,7 @@ public class CustomerController {
     @GetMapping("search")
     public List<Customer> search(@RequestParam("q") String q) {
         System.out.println("query::" + q);
+        System.out.println("Hello");
         return customerService.searchCustomer(q);
     }
     private void show() {
